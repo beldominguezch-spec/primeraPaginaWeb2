@@ -1,0 +1,253 @@
+    h2
+    {
+        color:#CC69FF;
+    }
+
+    p{
+        color:#CAC6DB;
+        font-size: 20px;
+    }
+    h4{
+        color:#CAC6DB;
+    }
+    b{
+        color:#CAC6DB;
+    }
+    body {
+    color: #CAC6DB; /* Pone en gris todo el texto "suelto" de la página */
+    background-color: #291E29;
+}
+    h2{
+        color: #99FDFE;
+    }
+
+    
+#logoVoz /*# se usan para los id*/
+{
+    width: 400px;
+    height: 400px;
+}
+.diplomata-regular {
+  font-family: "Diplomata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#imagen1{
+    width: 400px;
+    height: 400px;
+    box-shadow: 5px 5px 20px 5px black;
+}
+
+#formulario1 >label{
+    color:#FF89F1;
+}
+
+.listas >h2{
+    color:#99FDFE;
+    font-size: 30px;
+}
+.listas >* b{ /* el * busca cualquier b sin importar cuántos niveles de etiquetas (como el ol o el li) haya de por medio"*/
+    color:#FF89F1
+} 
+.listas >* {
+        color:#CAC6DB;
+        font-size: 20px;
+}
+#cajaLogo{
+    
+    background-color: #CC69FF;
+    padding: 5px; /*Espacio dentro de la caja*/
+    margin: 0px;
+    width: 100%;
+    height: 400px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#textoLogo{
+    text-align: center;
+    background-color: #CC69FF;
+    color: #291E29;
+    font-size: 50px;
+    box-shadow: 5px 5px 20px 5px black;
+}
+#menu{
+    background-color: #aa1af1;
+    box-shadow: 5px 5px 20px 5px black;
+}
+#menu li{
+    color: #CAC6DB;
+    list-style: none;
+    display: inline-block;
+    font: bold 60px;
+    text-decoration: none;
+    padding: 50px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: #CAC6DB;
+    font-size: 25px;
+}
+#servicios{
+    display: flex; 
+    justify-content: space-evenly;  /*Cajas con mismo espaciado*/
+    padding-left: 150px;
+    margin-top: 50px;
+    
+}
+.imgServ{
+    width: 70%;
+    border-radius: 30px;
+}
+#contenidoPrincipal{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#video1{
+    width: 40%;
+}
+#textoVideo1{
+    width: 40%;
+}
+#queEsCanto {
+    width: 70%;
+    text-align: center; 
+    margin: 0 auto;    
+}
+#textoQueEsCanto {
+    display: flex;
+    justify-content: center; 
+    padding: 20px 0;  
+    font-size: 30px;   
+}
+
+
+
+
+/*#contenidoClasificacion {
+    width: 40%;
+    padding: 20px;
+} Al poner esto se pone larga la tabla y el formulario, por eso lo quité.
+
+/* Tabla*/
+table {
+    width: 100%;
+    margin: 20px ;
+    border-collapse: collapse; 
+    background-color: #241d29; 
+}
+
+th, td {
+    border: 1px solid #7b2cbf; 
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #5a189a; 
+    color: white;
+}
+
+caption {
+    padding: 10px;
+    font-weight: bold;
+    color: #c77dff;
+}
+
+
+audio {
+    margin-top: 20px;
+
+}
+
+/*Formulario*/
+
+#registro {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; /* Mantiene el tamaño original del formulario. Esto lo busqué. */                  
+    width: 100%;
+    margin: 20px auto;
+}
+#tabla {
+    flex: 1;                /* Obliga a la tabla a ocupar todo el espacio disponible. Lo busqué. */
+    max-width: 950px;       /*Ancho*/
+    margin: 0;
+    padding-right: 10px;    
+}
+table {
+    width: 100% ; 
+    margin: 20px 0 ;
+}
+#formulario1_1 {
+    flex: 0 0 auto;         /* Mantiene el tamaño original del formulario. Esto lo busqué. */
+    width: fit-content;     
+    background-color: #241d29;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #7b2cbf;
+    margin-top: 100px;     
+}
+#imagen4 img {
+    width: 20%; 
+    height: auto;
+    border-radius: 20px; 
+}
+
+/*Tips*/
+#seccionTips {
+    display: flex;          
+    align-items: flex-start;  
+    gap: 30px;               
+    margin: 20px 0;
+}
+#imagen4 img {
+    width: 250px;           
+    height: auto;
+    border-radius: 20px;
+}
+#textoTips {
+    flex: 1;                  /* Toma el resto del espacio como una sola pieza */
+    text-align: left;         
+}
+#contenedorVideo video {
+    display: block;           /* Para que quede abajo*/
+    width: 400px;             
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/*Footer*/
+.footerVocal {
+    background-color: #291E29; 
+    color: #CAC6DB;            
+    padding: 30px 0px;
+    margin-top: 50px;
+    border-top: 3px solid #99FDFE; 
+}
+.footerContenido {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.footerInfo h3 {
+    color: #CC69FF;            
+    margin: 0px;
+}
+.footerContacto p {
+    margin: 5px;
+}
+.footerRedes a {
+    color: #FF89F1;            
+    font-weight: bold;
+}
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #CAC6DB;
+}
